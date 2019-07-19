@@ -10,9 +10,10 @@ class Solution {
                 conditioner++;
             }
             else{
-                if(conditioner>0){
+                
+                if(--conditioner>0){
                     SB.append(')');
-                    conditioner--;
+                    
                 }
                 
             }
